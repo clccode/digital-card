@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px auto;
+  font-family: "Inter", sans-serif;
+  max-width: 20em;
+  background-color: #23252C;
+}
+
+#root {
+  background: #1A1B21;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Photo */
+
+.profile-pic {
+  height: 18.75em;
+  width: 20em;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Name */
+
+.name--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name--heading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.name--subheading {
+  color: #F3BF99;
+  text-align: center;
+}
+
+/* Buttons */
+
+button {
+  width: 7em;
+  height: 2em;
+  margin: 5px;
+  font-family: "Inter", sans-serif; 
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.buttons--container {
+  display: flex;
+  justify-content: center;
+}
+
+.email {
+  background: #FFFFFF;
+  color: #374151;
+}
+
+.email > img,
+.linkedIn > img {
+  margin-right: 5px;
+}
+
+.linkedIn {
+  background: #5093E2;
+  color: #FFFFFF;
+}
+
+/* Main */
+
+.main--container {
+  color: #FFFFFF;
+  height: 100%;
+  margin: 1.2em;
+}
+
+.main--title {
+  font-size: 1.2em;
+}
+
+.main--text {
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+/* Footer */
+
+
+.footer--container {
+  background: #161619;
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.footer--container > img {
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+}
+
+.footer--container > a {
+  margin: .5em;
+}
